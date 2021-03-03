@@ -17,3 +17,9 @@
 
   http://www.imparareaprogrammare.it
 */
+
+var cats = 44;
+var file = 6;
+var catsfile = Math.ceil(cats/file);
+console.log(cats,file,catsfile);
+

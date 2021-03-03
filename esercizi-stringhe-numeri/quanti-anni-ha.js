@@ -11,3 +11,9 @@
 
   http://www.imparareaprogrammare.it
 */
+
+var anno = 2018;
+var nato = 1991;
+var eta = anno-nato;
+console.log('Età =',eta,'Anni mancanti',100-eta);
+

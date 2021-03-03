@@ -12,3 +12,11 @@
 
   http://www.imparareaprogrammare.it
 */
+
+var sec = 12560;
+var ore = Math.round(sec/3600);
+var temp = sec-ore*3600; 
+var min = Math.round(temp/60);
+sec = temp-min*60;
+console.log(ore, 'ore', min ,'minuti', sec, 'secondi');
+
