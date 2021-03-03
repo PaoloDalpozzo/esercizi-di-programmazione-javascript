@@ -18,8 +18,10 @@
   http://www.imparareaprogrammare.it
 */
 
-var cats = 44;
-var file = 6;
-var catsfile = Math.ceil(cats/file);
-console.log(cats,file,catsfile);
+var cats = 13;
+var catsfile = 3;
+var file = Math.ceil(cats/catsfile);
+var rest = catsfile*file-cats;
+console.log(file,rest);
+
 
