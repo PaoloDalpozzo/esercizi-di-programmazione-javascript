@@ -11,3 +11,12 @@
 
   http://www.imparareaprogrammare.it
 */
+
+var numero = 11;
+lung = numero.toString();
+console.log(lung.length);
+
+var numero = 1257;
+lung = numero.toString();
+console.log(lung.length);
+

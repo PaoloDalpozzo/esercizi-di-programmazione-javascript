@@ -15,3 +15,10 @@
 
   http://www.imparareaprogrammare.it
 */
+
+var numero = 63;
+console.log (numero%2);
+
+numero = 24;
+console.log (numero%2);
+

@@ -21,3 +21,31 @@
 
   http://www.imparareaprogrammare.it
 */
+
+
+var menu = 7;
+var one = 'Tiramisù';
+var two = 'Torta della nonna';
+var three = 'Cheesecake alla nutella';
+var four = 'Macedonia';
+console.log('MENU:');
+console.log('1.'+one);
+console.log('2.'+two);
+console.log('3.'+three);
+console.log('4.'+four);
+if(menu==1){
+  console.log('Hai scelto il dolce '+one);
+}
+if(menu==2){
+  console.log('Hai scelto il dolce '+two);
+}
+if(menu==3){
+  console.log('Hai scelto il dolce '+three);
+}
+if(menu==4){
+  console.log('Hai scelto il dolce '+four);
+}
+if(menu>4){
+  console.log('Dolce n.'+menu+' non disponibile');
+}
+
